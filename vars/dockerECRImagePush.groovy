@@ -34,7 +34,7 @@ def call(String dockerRegistry, String dockerImageTag, String ecrRepo, String aw
 
             # Push the Docker images
             docker image push $dockerRegistry:$dockerImageTag
-            docker image push $dockerRegistry:latest
+            
         """
     }
 }
